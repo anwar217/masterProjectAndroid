@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+    <Button
+        android:id="@+id/toast"
+        android:layout_width="354dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:layout_weight="0"
+        android:text="Toast"
+        app:iconTint="#0A2BE1" />
+
+    <TextView
+        android:id="@+id/textV"
+        android:layout_width="match_parent"
+        android:layout_height="549dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0"
+        android:background="#FFC107"
+        android:backgroundTint="#FFC107"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="100dp" />
+
+    <Button
+        android:id="@+id/count"
+        android:layout_width="354dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:layout_weight="0"
+        android:text="Count"
+        app:iconTint="#0A2BE1" />
+</LinearLayout>
